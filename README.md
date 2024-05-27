@@ -13,11 +13,15 @@ The only difference between the data sent to these two offices is the frequency 
 
 #### Frequency ?? What is it anyway ??
 
+![Alt text](https://github.com/CP-NIT/Final-Project/blob/main/s1_1.png)
+
 Well, in a very simple sense, we can say the frequency of a signal is higher when it has more sudden changes. For example, let's consider two signals: cos(0.2π*t) and cos(0.02π*t).
 
 You'll notice that the signal with a higher coefficient of t (frequency of 0.1Hz or rad/sec 0.2π) has more rapid changes, while in the other signal (with a frequency of 0.01Hz), the rate of change is slower.
 
 If we assume these two above signals are respectively the signals sent to the Snape and Gryffindor offices, then the signal you receive from the phone line should be the sum of these two signals, resulting in you receiving the lower-frequency signal.
+
+![Alt text]([https://github.com/CP-NIT/Final-Project/blob/main/s1_1.png](https://github.com/CP-NIT/Final-Project/blob/main/s1_2.png))
 
 To separate two signals with different frequencies that are present in one signal, we can use a filter. By passing the input signal through an appropriate filter, we can separate two signals with different frequencies from each other.
 
