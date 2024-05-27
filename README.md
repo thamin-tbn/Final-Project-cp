@@ -21,7 +21,7 @@ You'll notice that the signal with a higher coefficient of t (frequency of 0.1Hz
 
 If we assume these two above signals are respectively the signals sent to the Snape and Gryffindor offices, then the signal you receive from the phone line should be the sum of these two signals, resulting in you receiving the lower-frequency signal.
 
-![Alt text]([https://github.com/CP-NIT/Final-Project/blob/main/s1_1.png](https://github.com/CP-NIT/Final-Project/blob/main/s1_2.png))
+![Alt text](https://github.com/CP-NIT/Final-Project/blob/main/s1_2.png)
 
 To separate two signals with different frequencies that are present in one signal, we can use a filter. By passing the input signal through an appropriate filter, we can separate two signals with different frequencies from each other.
 
