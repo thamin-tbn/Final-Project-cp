@@ -13,10 +13,10 @@ The only difference between the data sent to these two offices is the frequency 
 
 #### Problem Statement
 
-In your program, receive the signal.
-Implement the convolution function.
-Find the appropriate filter.
-Perform convolution of the signal with the appropriate filter and separate the signals for the two offices separately in the output.
+In your program, receive the signal.<br/>
+Implement the convolution function.<br/>
+Find the appropriate filter.<br/>
+Perform convolution of the signal with the appropriate filter and separate the signals for the two offices separately in the output.<br/>
 
 For example consider our two signals is cos(0.2π*t) and cos(0.02π*t).
 
