@@ -13,10 +13,10 @@ The only difference between the data sent to these two offices is the frequency 
 
 #### Problem Statement
 
-In your program, receive the signal.<br/>
-Implement the convolution function.<br/>
-Find the appropriate filter.<br/>
-Perform convolution of the signal with the appropriate filter and separate the signals for the two offices separately in the output.<br/>
+In your program, receive the signal.
+Implement the convolution function.
+Find the appropriate filter.
+Perform convolution of the signal with the appropriate filter and separate the signals for the two offices separately in the output.
 
 For example consider our two signals is cos(0.2π*t) and cos(0.02π*t).
 
@@ -26,29 +26,29 @@ In this case, the signal we receive from the telephone line will be the followin
 
 ![Alt text](https://github.com/CP-NIT/Final-Project/blob/main/s1_2.png)
 
-
 ### Question 2 – Quidditch Competition
 
-#### Part 1: Harry Potter and his friends want to participate in this year's Quidditch competition. However, the unique aspect of this year's competition is that to make it more challenging, the university officials have decided to place charged points at various locations on the playing field.
+#### Part 1: Harry Potter and his friends want to participate in this year's Quidditch competition. However, the unique aspect of this year's competition is that to make it more challenging, the university officials have decided to place points with electric charge at various locations on the playing field.
 
-Harry Potter and his friends want to become the champions this year, so they asked you to write a program to find the electric field resulting from these charges at a point of their choosing.
+Harry Potter and his friends want to become the champions this year, so they asked you to write a program to Find the electric field created by the charged points.
 
-Your program is supposed to receive a two-dimensional array representing the playing field, where points with charges are indicated by the value of the charge they hold. One element of the array is represented by the letter 'O', and your program should calculate the electric field at point O and display it in the output. To do this, create a function that takes an array as input and returns a list with two elements, representing the magnitude of the field in the x and y directions, respectively.
+Your program is supposed to receive a two-dimensional array representing the playing field, where points with electrical charges are indicated by there values shown in Coulomb units. One element of the array is represented by the letter 'O', and your program should calculate the electric field at point O and display it in the output. To do this, create a function that takes an array as input and returns a list with two elements, representing the magnitude of the field in the x and y directions, respectively.
 
 For example, your input might be:
 
+![Alt text](https://github.com/CP-NIT/Final-Project/blob/main/s2_1.png)
 
-#### Part 2: Hagrid, who has a great fondness for straight lines, after hearing about your program, asks you to calculate the electric field at a distance of one meter from the center of a 50-meter straight line with a uniform charge density of 1C.
+#### Part 2: Hagrid has a great fondness for straight lines, he after hearing about your program, asks you to calculate the electric field at a distance of one meter from the center of a 50-meter straight line with a uniform charge density of 1C.
 
 ### Question 3 – Smart Attendance System
 
 Dumbledore wants to design an intelligent attendance system using artificial intelligence, but he realizes that he needs an edge detection system for this purpose. He has heard that by applying two-dimensional convolution on an image with an appropriate filter, this task can be accomplished. Since you have implemented a function for the convolution operation effectively, he asks you to do this task for him.
 
-Our requirements from you are:
+Our requirements from you:
 1. Read the image file and convert it into a two-dimensional array.
 2. Create a function that takes a two-dimensional array as an image and another two-dimensional array as a filter, performs two-dimensional convolution on these two, and returns the result of this operation.
 3. Find the appropriate filter for edge detection.
-4. Perform the convolution operation on the image and filter, and display the result in the output.
+4. Perform the convolution operation on the image and filter, then display the result in the output.
 
 ### Optional Task 1 - Hogwarts Electrical Wiring
 
